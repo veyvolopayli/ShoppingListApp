@@ -13,4 +13,20 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="TextViewRegular" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="fontFamily">@font/gilroy_regular</item>
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textSize">@dimen/regular_text_size</item>
+    </style>
+
+    <style name="TextViewBold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/text_color_primary</item>
+        <item name="fontFamily">@font/gilroy_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/gilroy_regular</item>
+        <item name="android:textSize">@dimen/regular_text_size</item>
+    </style>
+
 </resources>
